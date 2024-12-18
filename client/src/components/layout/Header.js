@@ -10,7 +10,7 @@ const Header = ({ loggedIn, loginTab, setLoginTab }) => {
         className="flex items-center cursor-pointer"
         onClick={() => navigate("/")}
       >
-        Task Manager
+        Gestionnaire de tâches
       </h2>
       {!loggedIn ? (
         <div className="header_btn-grp">
