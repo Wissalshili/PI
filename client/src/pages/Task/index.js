@@ -23,7 +23,8 @@ const Task = () => {
   useEffect(() => {
     fetchTask();
   }, [id]);
-
+  
+  // delete task
   const handleDelete = async () => {
     try {
       const confim = window.confirm("Are you sure you want to delete this task?");
